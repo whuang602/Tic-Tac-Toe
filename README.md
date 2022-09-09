@@ -18,7 +18,7 @@
 
 - Ability to change player names in Options menu
 
-- Ability to change which player/symbol starts playing first
+- Ability to change which player/symbol starts playing first 
 
 - Three functional states of game progress: ongoing, win, and stalemate
 
@@ -29,7 +29,31 @@
 <br/>
 
 <details>
-<summary>Current Goals for version 1.0 release:</summary>
+<summary>Ongoing Bug/Problem:</summary>
+
+- None
+
+</details>
+
+<br/>
+
+<details>
+<summary>Fixed Bugs:</summary>
+
+- stalemate state breaks the rendering
+
+- no pause/delay after winning move, user cannot see how the game was won/lost
+
+- make the winning 3 symbols more visible
+
+- once a player win and presses the quit button immediately, the game goes to menu screen then to winning page
+
+</details>
+
+<br/>
+
+<details>
+<summary>Original Goals for version 1.0 release:</summary>
 
 - Functional local 1 v 1
 
