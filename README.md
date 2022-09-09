@@ -18,31 +18,11 @@
 
 - Ability to change player names in Options menu
 
-- Ability to change which player/symbol starts playing first 
+- Ability to change which player/symbol starts playing first
 
-</details>
+- Three functional states of game progress: ongoing, win, and stalemate
 
-<br/>
-
-<details>
-<summary>Ongoing Bug/Problem:</summary>
-
-- once a player win and presses the quit button immediately, the game goes to menu screen then to winning page
-
-- winning page is lackluster
-
-</details>
-
-<br/>
-
-<details>
-<summary>Previous Bug/Problem(Now fixed):</summary>
-
-- stalemate state breaks the rendering
-
-- no pause/delay after winning move, user cannot see how the game was won/lost
-
-- make the winning 3 symbols more visible
+- Colorful game board
 
 </details>
 
@@ -61,8 +41,6 @@
 
 - update all status results (win/stalemate)
 
-- Enhanced winning screen (animation/better coloring)
-
 
 </details>
 
@@ -80,6 +58,8 @@
 - Accessbility Options(Black and white)
 
 - Celebration on Win page
+
+- Working AI to play against
 
 </details>
 
