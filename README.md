@@ -1,70 +1,85 @@
-# Getting Started with Create React App
+<p align="center">
+<img width="150" height="150" src="/public/logo.png">
+</p>
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+<h1 align="center"> Tic Tac Toe </h1>
 
-## Available Scripts
+<h5 align="center"> by William Huang </h5>
 
-In the project directory, you can run:
 
-### `npm start`
+        Summary: A simple Tic Tac Toe game made in ReactJS
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+<br/>
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+<details>
+<summary>Current Version Capabilities (version 0):</summary>
 
-### `npm test`
+- Well functioning Local 1 v 1
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+- Ability to change player names in Options menu
 
-### `npm run build`
+- Ability to change which player/symbol starts playing first 
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+</details>
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+<br/>
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+<details>
+<summary>Ongoing Bug/Problem:</summary>
 
-### `npm run eject`
+- once a player win and presses the quit button immediately, the game goes to menu screen then to winning page
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+- winning page is lackluster
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+</details>
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+<br/>
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+<details>
+<summary>Previous Bug/Problem(Now fixed):</summary>
 
-## Learn More
+- stalemate state breaks the rendering
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+- no pause/delay after winning move, user cannot see how the game was won/lost
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+- make the winning 3 symbols more visible
 
-### Code Splitting
+</details>
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+<br/>
 
-### Analyzing the Bundle Size
+<details>
+<summary>Current Goals for version 1.0 release:</summary>
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+- Functional local 1 v 1
 
-### Making a Progressive Web App
+- enhance ability to change player names and UI
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+- option to change which symbol goes first (X vs O)
 
-### Advanced Configuration
+- option to restart on game page 
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+- update all status results (win/stalemate)
 
-### Deployment
+- Enhanced winning screen (animation/better coloring)
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
 
-### `npm run build` fails to minify
+</details>
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+<br/>
+
+<details>
+<summary>Future release plans:</summary>
+
+- More dynamic board structure to allow for more complex games (4x4, 5x5, etc)
+
+- Option for user to change the color of the game(including the symbols) in options
+
+- Ability to keep track of wins for both players
+
+- Accessbility Options(Black and white)
+
+- Celebration on Win page
+
+</details>
+

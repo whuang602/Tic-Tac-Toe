@@ -1,0 +1,332 @@
+body {
+    background-color: #ddd;
+  }
+  
+  ol, ul {
+    padding-left: 30px;
+  }
+  
+  .board-row:after {
+    clear: both;
+    content: "";
+    display: table;
+  }
+  
+  .status {
+    margin-bottom: 45px;
+  }
+
+  .start-game h1 {
+    font: 150px "Brush Script MT", cursive;
+    text-align: center;
+    line-height: 0px;
+    margin-top: 200px;
+    color:rgb(85, 61, 61);
+  }
+
+  .start-game h2 {
+    font: 30px "Brush Script MT", cursive;
+    text-align: center;
+    margin-top: 230px;
+    color:rgb(85, 61, 61);
+  }
+
+  .start-game h6 {
+    font: 30px "Brush Script MT", cursive;
+    text-align: center;
+    line-height: -100p;
+    color:rgb(85, 61, 61);
+  }
+
+  .start-game button {
+    border-width:thick;
+    border-radius:45px;
+    border-color:rgb(78, 10, 10);
+    border-style:double;
+    padding: 14px;
+    font: 50px "Brush Script MT", cursive;
+    color:rgb(85, 61, 61);
+    background-color: #ddd;
+    display: grid;
+    margin: auto;
+    width:350px;
+    height:90px;
+    line-height: 45px;
+    
+  }
+
+  .start-game button:hover { background-color: rgb(190, 190, 190); }
+
+  .start-game button:active {
+    background-color: rgb(160, 160, 160);
+  }
+  
+  .square1 {
+    background: rgb(212, 199, 199);
+    border: 5px solid rgb(66, 60, 60);
+    float: left;
+    color: rgb(52, 72, 184);
+    font-size: 150px;
+    font-weight: bold;
+    line-height: 34px;
+    height: 200px;
+    margin-right: -4px;
+    margin-top: -4px;
+    padding: 0;
+    text-align: center;
+    width: 200px;
+  }
+  
+  .square1:focus {
+    outline: none;
+  }
+
+  .square2 {
+    background: rgb(212, 199, 199);
+    border: 5px solid rgb(66, 60, 60);
+    float: left;
+    color: rgb(204, 31, 31);
+    font-size: 150px;
+    font-weight: bold;
+    line-height: 34px;
+    height: 200px;
+    margin-right: -4px;
+    margin-top: -4px;
+    padding: 0;
+    text-align: center;
+    width: 200px;
+  }
+  
+  .square2:focus {
+    outline: none;
+  }
+
+  .winningSquare1 {
+    background: rgb(48, 224, 127);
+    border: 5px solid rgb(66, 60, 60);
+    float: left;
+    color: rgb(52, 72, 184);
+    font-size: 220px;
+    font-weight: bold;
+    line-height: 34px;
+    height: 200px;
+    margin-right: -4px;
+    margin-top: -4px;
+    padding: 0;
+    text-align: center;
+    width: 200px;
+  }
+
+  .winningSquare2 {
+    background: rgb(48, 224, 127);
+    border: 5px solid rgb(66, 60, 60);
+    float: left;
+    color: rgb(204, 31, 31);
+    font-size: 220px;
+    font-weight: bold;
+    line-height: 34px;
+    height: 200px;
+    margin-right: -4px;
+    margin-top: -4px;
+    padding: 0;
+    text-align: center;
+    width: 200px;
+  }
+  
+  .kbd-navigation .square:focus {
+    background: #ddd;
+  }
+  
+  .game-board {
+    display: flex;
+    flex-direction: row;
+    margin-left: 650px;
+    margin-top: -55px;
+    font: 50px "Brush Script MT", cursive;
+    text-align: center;
+    color:rgb(85, 61, 61);
+  }
+
+  .quit button {
+    border-width:thick;
+    border-radius:40px;
+    border-color:rgb(78, 10, 10);
+    border-style:double;
+    padding: 12px;
+    font: 50px "Brush Script MT", cursive;
+    color:rgb(85, 61, 61);
+    background-color: #ddd;
+    margin-top:5px;
+    margin-left:5px;
+    width:225px;
+    height:90px;
+    line-height: 45px;
+  }
+
+  .quit button:hover { background-color: rgb(190, 190, 190); }
+
+  .quit button:active {
+    background-color: rgb(160, 160, 160);
+  }
+
+  .game-header h2 {
+    font: 100px "Brush Script MT", cursive;
+    color:rgb(85, 61, 61);
+    font-weight: bold;
+    line-height: 200px;
+    height: 200px;
+    margin-top: -130px;
+    text-align: center;
+  }
+  
+  .game-info {
+    margin-left: 20px;
+  }
+
+  .options-page h2 {
+    font: 100px "Brush Script MT", cursive;
+    color:rgb(85, 61, 61);
+    font-weight: bold;
+    line-height: 200px;
+    height: 200px;
+    margin-top: -130px;
+    text-align: center;
+  }
+
+
+  .options-page button {
+    border-width:thick;
+    border-radius:40px;
+    border-color:rgb(78, 10, 10);
+    padding: 12px;
+  }
+
+
+  .options-page button:hover { background-color: rgb(190, 190, 190); }
+
+  .options-page button:active {
+    background-color: rgb(160, 160, 160);
+  }
+
+  .save {
+    border-style:double;
+    font: 50px "Brush Script MT", cursive;
+    color:rgb(85, 61, 61);
+    background-color: #ddd;
+    margin-top:5px;
+    margin-left:5px;
+    width:225px;
+    height:90px;
+    line-height: 45px;
+  }
+
+  .who-first {
+    border-width:thick;
+    border-radius:40px;
+    border-color:rgb(78, 10, 10);
+    border-style: double;
+    outline:none;
+    padding: 14px;
+    font: 50px "Brush Script MT", cursive;
+    color:rgb(85, 61, 61);
+    background-color: #ddd;
+    display:inline-flex;
+    text-align: center;
+}
+
+.name-label label {
+  font-weight: bold;
+  font: 35px "Brush Script MT", cursive;
+  margin-left: 540px;
+  margin-right:50px;
+  display: inline-flex;
+  justify-content:space-between;
+  color:rgb(85, 61, 61);
+}
+
+  .name-box {
+    border-width:thick;
+    border-color:rgb(78, 10, 10);
+    border-style: solid;
+    outline:none;
+    padding: 14px;
+    font: 25px "Brush Script MT", cursive;
+    color:rgb(85, 61, 61);
+    background-color: #ddd;
+    display:inline-flex;
+    width: 250px;
+    justify-content: space-evenly;
+    text-align: center;
+    margin-left: 140px;
+    margin-right: 320px;
+    margin-top: 10px;
+  }
+
+  .optionChoiceNames {
+    font: 30px "Brush Script MT", cursive;
+    display: inline-flex;
+    justify-content:space-between;
+    color:rgb(85, 61, 61);
+    margin-top: 50px;
+    margin-left: 40px;
+  }
+
+  .who-first-button {
+    border-width:thick;
+    border-color:rgb(78, 10, 10);
+    border-style: solid;
+    outline:none;
+    padding: 14px;
+    font: 25px "Brush Script MT", cursive;
+    color:rgb(85, 61, 61);
+    background-color: #ddd;
+    display:inline-flex;
+    width: 250px;
+    justify-content: space-evenly;
+    text-align: center;
+    margin-left: 110px;
+    margin-right: 395px;
+    margin-top: 10px;
+  }
+
+ .winning-text  {
+    margin-top: 100px;
+    font: 75px "Brush Script MT", cursive;
+    text-align: center;
+    color:rgb(79, 97, 155);
+  }
+
+  .winner {
+    margin-left: 5px;
+    margin-right: 5px;
+    padding-left: 25px;
+    text-underline-offset: 10px;
+    color:rgb(240, 114, 30);
+  }
+
+
+  .brackets {
+    color:rgba(16, 66, 38, 0.658);
+  }
+
+  .restart button {
+    border-width:thick;
+    border-radius:40px;
+    border-color:rgb(44, 28, 14);
+    border-style:double;
+    padding: 12px;
+    font: 50px "Brush Script MT", cursive;
+    color:rgb(85, 61, 61);
+    background-color: #ddd;
+    margin-top:5px;
+    margin-left:5px;
+    width:225px;
+    height:90px;
+    line-height: 45px;
+  }
+  
+  .restart button:hover { background-color: rgb(190, 190, 190); }
+
+  .restart button:active {
+    background-color: rgb(160, 160, 160);
+  }
