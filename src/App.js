@@ -13,6 +13,7 @@ function Square(props) {
     sqName = sqName + "1"
   else
     sqName = sqName + "2"
+
   return(
     <button
       className={sqName}
@@ -60,7 +61,6 @@ class Board extends React.Component {
     if ( winning3.indexOf(i) > -1 )
     {
       isWin=true;
-      console.log("hello1")
     }
 
     return ( 
@@ -177,7 +177,7 @@ function App() {
         { pageID==PageID.Menu && 
         <div className="start-game">
           <h1> Tic-Tac-Toe </h1>
-          <h6>v. 1.0</h6>
+          <h6>v 1.0</h6>
           <div style={{margin:20}}>
             <button onClick={() => setPageID(PageID.Game)}> Start Game </button>
           </div>
@@ -191,29 +191,30 @@ function App() {
         {/* Game Page */}
         { pageID == PageID.Game &&
         <div className="game">
-          
-          { winner != "=" && winner != "O" && winner != "X" && <div className="quit">
-            <button onClick={() => {setWinner(0) ; setPageID(PageID.Menu)}}> Quit </button>
-          </div>}
+          <div className="game-main-headers">
+            { winner != "=" && winner != "O" && winner != "X" && <div className="quit">
+              <button onClick={() => {setWinner(0) ; setPageID(PageID.Menu)}}> Quit </button>
+            </div>}
 
-          { winner != "=" && (winner == "O" || winner == "X") && <div className="quit">
-            <button> Quit </button>
-          </div>}
+            { winner != "=" && (winner == "O" || winner == "X") && <div className="quit">
+              <button> Quit </button>
+            </div>}
 
-          { winner == "=" && <div className="quit">
-            <button onClick={() => {setWinner(0) ; setPageID(PageID.Menu)}}> Restart </button>
-          </div>}
+            { winner == "=" && <div className="quit">
+              <button onClick={() => {setWinner(0) ; setPageID(PageID.Menu)}}> Restart </button>
+            </div>}
 
-          <div className="game-header">
-          <h2> {"Tic-Tac-Toe"}</h2>
+            <div className="game-header">
+              <h2> Tic-Tac-Toe </h2>
+            </div>
+            
           </div>
 
           <div className="game-board">
             <Board name1={name1} name2={name2} xFirst={xFirst} winner={winner} setWinner={setWinner}/>
           </div>
 
-          {winner != 0 && winner != null && winner != "=" && setTimeout(()=>setPageID(PageID.WinPage),3500)}
-
+          {winner != 0 && winner != null && winner != "=" && setTimeout(()=>setPageID(PageID.WinPage),3500) ? null : null}
         </div> }
 
 
@@ -226,15 +227,14 @@ function App() {
             </div>
 
           <div className="name-label">
-          <label > Player X: 
-          </label>
-          
-          <label> Player O:
-          </label>
+          <t></t>
+          <label > Player X: </label>
+          <label> Player O: </label>
           </div>
           
           <div>
             <label className="optionChoiceNames"> Change Player Name </label>
+
             <input className="name-box"
               type="text"
               placeholder="default: Anne"
@@ -247,10 +247,12 @@ function App() {
             </div>
 
           <div>
-            <label className="optionChoiceNames"> Play Order (default: X)</label>
+          <label className="who-first-label"> First Player </label>
             <button className="who-first-button" onClick={()=>setXFirst(true)}> X </button>
             <button className="who-first-button" onClick={()=>setXFirst(false)}> O </button>
           </div>
+          <label className="first-label"> (Current: {xFirst ? "X" : "O"  }) </label>
+
 
 
         </div> }
@@ -258,13 +260,15 @@ function App() {
         {/* Winning Page */}
         { pageID==PageID.WinPage &&
           <div className="winning-page">
-
+            <div className="game-main-headers">
             <div className="restart">
               <button onClick={()=>{setWinner(0);setPageID(PageID.Menu)}}> Restart </button>
             </div>
 
             <div className="game-header">
-              <h2> {"Tic-Tac-Toe"}</h2>
+              <h2> Tic-Tac-Toe </h2>
+            </div>
+
             </div>
 
             {(winner=="X" && setWinner(name1))|| (winner=="O" && setWinner(name2))}
