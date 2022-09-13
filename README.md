@@ -7,6 +7,9 @@
 <h5 align="center"> by William Huang </h5>
 
 
+# [Play the Game](https://whuang602.github.io/Tic-Tac-Toe/)
+
+
         Summary: A simple Tic Tac Toe game made in ReactJS
 
 <br/>
