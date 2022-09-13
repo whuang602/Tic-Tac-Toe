@@ -215,7 +215,11 @@ body {
   }
 
   .save {
+    border-width:thick;
+    border-radius:40px;
+    border-color:rgb(78, 10, 10);
     border-style:double;
+    padding: 12px;
     font: 50px "Brush Script MT", cursive;
     color:rgb(85, 61, 61);
     background-color: #ddd;
