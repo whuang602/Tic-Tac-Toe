@@ -85,5 +85,7 @@
 
 - Working AI to play against
 
+- Dynamic UI that will work on any resolution
+
 </details>
 
