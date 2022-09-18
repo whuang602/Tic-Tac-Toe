@@ -221,10 +221,10 @@ function App() {
         {/* Options Page */}
         { pageID == PageID.Options &&
         <div className="options-page">
-          <div>
-          <button className="save" onClick={() => setPageID(PageID.Menu)}> Save </button>
-          <h2> Options </h2>
+          <div className="save">
+          <button onClick={() => setPageID(PageID.Menu)}> Save </button>
             </div>
+          <div> <h2> Options </h2> </div>
 
           <div className="name-label">
           <t></t>

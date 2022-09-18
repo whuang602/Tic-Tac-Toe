@@ -159,8 +159,8 @@ body {
     margin-top:.5rem;
     margin-left:.5rem;
     width:14rem;
-    height:5.5rem;
-    line-height: 45px;
+    height:5.25rem;
+    line-height: 1rem;
   }
 
   .quit button:hover { background-color: rgb(190, 190, 190); }
@@ -214,7 +214,7 @@ body {
     background-color: rgb(160, 160, 160);
   }
 
-  .save {
+  .save button {
     border-width:thick;
     border-radius:40px;
     border-color:rgb(78, 10, 10);
@@ -226,8 +226,14 @@ body {
     margin-top:.5rem;
     margin-left:.5rem;
     width:14rem;
-    height:5.5rem;
-    line-height: 45px;
+    height:5.25rem;
+    line-height: 1rem;
+  }
+
+  .save button:hover { background-color: rgb(190, 190, 190); }
+
+  .save button:active {
+    background-color: rgb(160, 160, 160);
   }
 
   .who-first {
@@ -348,8 +354,8 @@ body {
     margin-top:.5rem;
     margin-left:.5rem;
     width:14rem;
-    height:5.5rem;
-    line-height: 45px;
+    height:5.25rem;
+    line-height: 1rem;
   }
   
   .restart button:hover { background-color: rgb(190, 190, 190); }
