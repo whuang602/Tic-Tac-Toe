@@ -33,7 +33,7 @@
 <details>
 <summary>Ongoing Bug/Problem:</summary>
 
-- None
+- On deployed version, the Save button in Options is misaligned
 
 </details>
 
