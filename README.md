@@ -83,7 +83,7 @@
 
 - Accessbility Options(Black and white)
 
-- Celebration on Win page
+- Animated (or still image) celebration on Win page
 
 - Working AI to play against
 
