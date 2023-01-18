@@ -14,7 +14,7 @@
 <br/>
 
 <details>
-<summary>Current Version Capabilities (version 0):</summary>
+<summary>Current Version Capabilities (version 1):</summary>
 
 - Well functioning Local 1 v 1
 
