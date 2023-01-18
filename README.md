@@ -34,6 +34,11 @@
 <summary>Ongoing Bug/Problem:</summary>
 
 - On deployed version, the Save button in Options is misaligned
+        
+- UI is misaligned on different resolution and screen size
+        
+- OS X has different fonts
+        
 
 </details>
 
