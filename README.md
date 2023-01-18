@@ -37,7 +37,7 @@
         
 - UI is misaligned on different resolution and screen size
         
-- OS X has different fonts
+- fonts is different on different devices
         
 
 </details>
