@@ -47,7 +47,7 @@ ol, ul {
   border-color:rgb(78, 10, 10);
   border-style:double;
   padding: 14px;
-  font: 50px "Brush Script", bold;
+  font: 3rem "Brush Script", bold;
   color:rgb(85, 61, 61);
   background-color: #ddd;
   display: grid;
@@ -156,7 +156,7 @@ ol, ul {
   border-color:rgb(78, 10, 10);
   border-style:double;
   padding: 12px;
-  font: 50px "Brush Script", bold;
+  font: 3rem "Brush Script", bold;
   color:rgb(85, 61, 61);
   background-color: #ddd;
   margin-top:.5rem;
@@ -223,7 +223,7 @@ ol, ul {
   border-color:rgb(78, 10, 10);
   border-style:double;
   padding: 1rem;
-  font: 50px "Brush Script", bold;
+  font: 3rem "Brush Script", bold;
   color:rgb(85, 61, 61);
   background-color: #ddd;
   margin-top:.5rem;

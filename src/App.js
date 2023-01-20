@@ -233,7 +233,7 @@ function App() {
           </div>
           
           <div>
-            <label className="optionChoiceNames"> Change Player Name </label>
+            <label className="optionChoiceNames"> Change Name </label>
 
             <input className="name-box"
               type="text"
