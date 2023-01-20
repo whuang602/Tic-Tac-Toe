@@ -177,7 +177,7 @@ function App() {
         { pageID==PageID.Menu && 
         <div className="start-game">
           <h1> Tic-Tac-Toe </h1>
-          <h6>v 1.0</h6>
+          <h6>v 1.1</h6>
           <div style={{margin:20}}>
             <button onClick={() => setPageID(PageID.Game)}> Start Game </button>
           </div>
