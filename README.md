@@ -14,7 +14,7 @@
 <br/>
 
 <details>
-<summary>Current Version Capabilities (version 1):</summary>
+<summary>Current Version Capabilities (version 1.1.2):</summary>
 
 - Well functioning Local 1 v 1
 
@@ -35,9 +35,9 @@
 
 - On deployed version, the Save button in Options is misaligned
         
-- UI is misaligned on different resolution and screen size
+- UI can misalign on different resolutions, screen sizes, and/or browsers
         
-- fonts is different on different devices
+- fonts can differ on across OS and browsers
         
 
 </details>
@@ -54,6 +54,8 @@
 - make the winning 3 symbols more visible
 
 - once a player win and presses the quit button immediately, the game goes to menu screen then to winning page
+
+-Basic UI & functionalities have mostly been fixed
 
 </details>
 
@@ -78,7 +80,7 @@
 <br/>
 
 <details>
-<summary>Future release plans:</summary>
+<summary>Future/Potential addons:</summary>
 
 - More dynamic board structure to allow for more complex games (4x4, 5x5, etc)
 
