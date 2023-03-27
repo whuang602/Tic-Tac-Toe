@@ -20,7 +20,7 @@ ol, ul {
 }
 
 .start-game h1 {
-  font: 150px "Brush Script";
+  font: 12vw "Brush Script";
   text-align: center;
   line-height: 0%;
   margin-top: 10%;
@@ -47,14 +47,14 @@ ol, ul {
   border-color:rgb(78, 10, 10);
   border-style:double;
   padding: 14px;
-  font: 3rem "Brush Script", bold;
+  font: 3rem "Brush Script";
   color:rgb(85, 61, 61);
   background-color: #ddd;
   display: grid;
   margin: auto;
-  width:24rem;
+  width:20rem;
   height:5.5rem;
-  line-height: 3.75rem;
+  line-height: 1;
   
 }
 
@@ -156,14 +156,14 @@ ol, ul {
   border-color:rgb(78, 10, 10);
   border-style:double;
   padding: 12px;
-  font: 3rem "Brush Script", bold;
+  font: 3rem "Brush Script";
   color:rgb(85, 61, 61);
   background-color: #ddd;
   margin-top:.5rem;
   margin-left:.5rem;
   width:14rem;
   height:5.25rem;
-  line-height: 3.75rem;
+  line-height: 1;
 }
 
 .quit button:hover { background-color: rgb(190, 190, 190); }
@@ -193,7 +193,7 @@ ol, ul {
 }
 
 .options-page h2 {
-  font: 100px "Brush Script";
+  font: 8vw "Brush Script";
   color:rgb(85, 61, 61);
   font-weight: bold;
   line-height: 200px;
@@ -223,14 +223,14 @@ ol, ul {
   border-color:rgb(78, 10, 10);
   border-style:double;
   padding: 1rem;
-  font: 3rem "Brush Script", bold;
+  font: 3rem "Brush Script";
   color:rgb(85, 61, 61);
   background-color: #ddd;
   margin-top:.5rem;
   margin-left:.5rem;
   width:14rem;
   height:5.25rem;
-  line-height: 3.25rem;
+  line-height: 1;
 }
 
 .save button:hover { background-color: rgb(190, 190, 190); }
@@ -353,14 +353,14 @@ color:rgb(85, 61, 61);
   border-color:rgb(44, 28, 14);
   border-style:double;
   padding: 12px;
-  font: 50px "Brush Script", bold;
+  font: 50px "Brush Script";
   color:rgb(85, 61, 61);
   background-color: #ddd;
   margin-top:.5rem;
   margin-left:.5rem;
   width:14rem;
   height:5.25rem;
-  line-height: 3.75rem;
+  line-height: 1;
 }
 
 .restart button:hover { background-color: rgb(190, 190, 190); }
