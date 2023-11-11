@@ -13,8 +13,7 @@ ol, ul {
 }
 
 .status {
-  margin-top: -10%;
-  margin-bottom: 10%;
+  margin-bottom: 5%;
   margin-left: -30%;
   margin-right: -30%;
 }
@@ -72,12 +71,12 @@ ol, ul {
   font-size: 9rem;
   font-weight: bold;
   line-height: 34px;
-  height: 10rem;
+  height: 11vw;
   margin-right: -4px;
   margin-top: -4px;
   padding: 0;
   text-align: center;
-  width: 10rem;
+  width: 11vw;
 }
 
 .square1:focus {
@@ -92,12 +91,12 @@ ol, ul {
   font-size: 9rem;
   font-weight: bold;
   line-height: 34px;
-  height: 10rem;
+  height: 11vw;
   margin-right: -4px;
   margin-top: -4px;
   padding: 0;
   text-align: center;
-  width: 10rem;
+  width: 11vw;
 }
 
 .square2:focus {
@@ -109,15 +108,15 @@ ol, ul {
   border: 5px solid rgb(66, 60, 60);
   float: left;
   color: rgb(52, 72, 184);
-  font-size: 12rem;
+  font-size: 13vw;
   font-weight: bold;
   line-height: 34px;
-  height: 10rem;
+  height: 11vw;
   margin-right: -4px;
   margin-top: -4px;
   padding: 0;
   text-align: center;
-  width: 10rem;
+  width: 11vw;
 }
 
 .winningSquare2 {
@@ -128,12 +127,12 @@ ol, ul {
   font-size: 12rem;
   font-weight: bold;
   line-height: 34px;
-  height: 10rem;
+  height: 11vw;
   margin-right: -4px;
   margin-top: -4px;
   padding: 0;
   text-align: center;
-  width: 10rem;
+  width: 11vw;
 }
 
 .kbd-navigation .square:focus {
@@ -141,11 +140,10 @@ ol, ul {
 }
 
 .game-board {
-  position: absolute;
-  align-self:center;
-  top:25%;
-  left:30%;
-  font: 50px "Brush Script";
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font: 3vw "Brush Script";
   text-align: center;
   color:rgb(85, 61, 61);
 }
